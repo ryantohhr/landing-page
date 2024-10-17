@@ -8,14 +8,76 @@ html {
 
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header, .hero {
+    background-color: #1f2937;
 }
 
 .header {
-    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 175px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+a, .hero .secondary {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+}
+
+.hero .main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero {
+    display: flex;
+    padding: 80px 175px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero .text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.hero .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: grey;
+}
+
+.hero .text button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
 }
