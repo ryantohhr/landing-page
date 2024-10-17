@@ -119,3 +119,29 @@ a, .hero .secondary {
     width: 150px;
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote .text {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote .text .main {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .text .author {
+    font-weight: bold;
+    color: #1f2937;
+}
