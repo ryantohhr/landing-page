@@ -145,3 +145,35 @@ a, .hero .secondary {
     font-weight: bold;
     color: #1f2937;
 }
+
+.call-to-action {
+    padding: 70px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 45px 0;
+    border-radius: 8px;
+    color: #f9faf8;
+}
+
+.call-to-action .container .text .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-to-action .container button {
+    font-weight: bold;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 3px 25px;
+}
